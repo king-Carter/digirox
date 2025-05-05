@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Digirox AI Retail Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            background: linear-gradient(145deg, #ffffff, #f8fafc);
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Digirox AI Retail Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            background: linear-gradient(145deg, #ffffff, #f8fafc);
+        }
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-[1400px] mx-auto px-8 py-5">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <span class="text-3xl font-extrabold text-blue-800 tracking-tight">DIGIROX</span>
+                </div>
+                <div class="hidden lg:flex space-x-10">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">Home</a>
+                    <a href="index.html#solutions" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">Solutions</a>
+                    <a href="index.html#capabilities" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">Capabilities</a>
+                    <a href="index.html#results" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">Results</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">About</a>
+                    <a href="#" class="text-blue-600 font-semibold nav-link">Resources</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 font-semibold nav-link">Contact</a>
+                </div>
+                <div class="hidden lg:block">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 transform hover:scale-105">
+                        Book Demo
+                    </button>
+                </div>
+                <button class="lg:hidden text-gray-600" id="mobile-menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="lg:hidden hidden bg-white py-6 px-8 shadow-lg" id="mobile-menu">
+            <div class="flex flex-col space-y-5">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">Home</a>
+                <a href="index.html#solutions" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">Solutions</a>
+                <a href="index.html#capabilities" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">Capabilities</a>
+                <a href="index.html#results" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">Results</a>
+                <a href="about.html" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">About</a>
+                <a href="#" class="text-blue-600 font-semibold text-lg">Resources</a>
+                <a href="contact.html" class="text-gray-600 hover:text-blue-600 font-semibold text-lg">Contact</a>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300 w-full">
+                    Book Demo
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="max-w-[1400px] mx-auto px-8 py-24 md:py-32">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Resources
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                    Explore our collection of blog posts, case studies, and news to stay ahead in retail with AI-powered insights.
+                </p>
+                <button class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition duration-300 transform hover:scale-105">
+                    Subscribe for Updates
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    Blog Posts
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Dive into our expert insights on retail trends, AI strategies, and actionable tips for growth.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1551288049-b1f3a99a90c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 1" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Ecommerce Pricing Intelligence</h3>
+                        <p class="text-gray-600 mb-6">Strategies for thriving in global price fluctuations with AI-powered solutions.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1516321310766-78a3957061fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 2" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Optimizing Inventory with AI</h3>
+                        <p class="text-gray-600 mb-6">Learn how AI can balance stock levels to reduce costs and boost sales.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 3" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">The Future of Retail AI</h3>
+                        <p class="text-gray-600 mb-6">Explore emerging trends in AI-driven retail decision-making.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="bg-gray-50 py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    Case Studies
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Discover how leading retailers have transformed their businesses with Digirox's AI solutions.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Case Study 1" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Batteries Plus: 14% Profit Growth</h3>
+                        <p class="text-gray-600 mb-6">How Digirox's pricing and assortment analysis drove significant profit increases.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1486406146923-c683a785368b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Case Study 2" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Global Retailer: Inventory Optimization</h3>
+                        <p class="text-gray-600 mb-6">Reducing stockouts and overstock with AI-powered inventory management.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    In the News
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Stay updated with the latest Digirox achievements and industry recognition.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Pittsburgh Startup of the Year Winner!</h3>
+                        <p class="text-gray-600 mb-6">Digirox is the WINNER of the Pittsburgh Startup of the Year for 2024.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">WWD: Driving Profit Growth</h3>
+                        <p class="text-gray-600 mb-6">How Digirox's AI platform transforms retail decision-making.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Retail Tech Award 2025</h3>
+                        <p class="text-gray-600 mb-6">Digirox wins Retail Innovation Award at Retail Technology Show.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-blue-50 py-20">
+        <div class="max-w-[1400px] mx-auto px-8 text-center">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-8">
+                Subscribe for Weekly Retail Insights
+            </h2>
+            <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+                Get the latest updates on retail trends, AI innovations, and exclusive Digirox content delivered to your inbox.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
+                <input type="email" placeholder="Enter your email address" class="flex-grow px-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition duration-300 transform hover:scale-105">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-12">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-extrabold mb-6">Digirox</h3>
+                    <p class="text-gray-400">AI-powered retail solutions that drive measurable profit growth for modern retailers.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Solutions</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Price Optimization</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Assortment Analysis</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Competitive Analysis</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Inventory Analysis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-10 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 Digirox, Inc. All rights reserved.</p>
+                <div class="flex space-x-8">
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="max-w-[1400px] mx-auto px-8 py-24 md:py-32">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Resources
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                    Explore our collection of blog posts, case studies, and news to stay ahead in retail with AI-powered insights.
+                </p>
+                <button class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition duration-300 transform hover:scale-105">
+                    Subscribe for Updates
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    Blog Posts
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Dive into our expert insights on retail trends, AI strategies, and actionable tips for growth.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1551288049-b1f3a99a90c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 1" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Ecommerce Pricing Intelligence</h3>
+                        <p class="text-gray-600 mb-6">Strategies for thriving in global price fluctuations with AI-powered solutions.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1516321310766-78a3957061fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 2" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Optimizing Inventory with AI</h3>
+                        <p class="text-gray-600 mb-6">Learn how AI can balance stock levels to reduce costs and boost sales.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Blog Post 3" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">The Future of Retail AI</h3>
+                        <p class="text-gray-600 mb-6">Explore emerging trends in AI-driven retail decision-making.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read Article <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="bg-gray-50 py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    Case Studies
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Discover how leading retailers have transformed their businesses with Digirox's AI solutions.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Case Study 1" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Batteries Plus: 14% Profit Growth</h3>
+                        <p class="text-gray-600 mb-6">How Digirox's pricing and assortment analysis drove significant profit increases.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1486406146923-c683a785368b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" alt="Case Study 2" class="w-full h-48 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Global Retailer: Inventory Optimization</h3>
+                        <p class="text-gray-600 mb-6">Reducing stockouts and overstock with AI-powered inventory management.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="bg-white py-20">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-gray-900">
+                    In the News
+                </h2>
+                <p class="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+                    Stay updated with the latest Digirox achievements and industry recognition.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Pittsburgh Startup of the Year Winner!</h3>
+                        <p class="text-gray-600 mb-6">Digirox is the WINNER of the Pittsburgh Startup of the Year for 2024.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">WWD: Driving Profit Growth</h3>
+                        <p class="text-gray-600 mb-6">How Digirox's AI platform transforms retail decision-making.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-card rounded-xl overflow-hidden shadow-lg">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-2xl font-semibold">
+                        News
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Retail Tech Award 2025</h3>
+                        <p class="text-gray-600 mb-6">Digirox wins Retail Innovation Award at Retail Technology Show.</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-semibold inline-flex items-center">
+                            Read More <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-blue-50 py-20">
+        <div class="max-w-[1400px] mx-auto px-8 text-center">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-8">
+                Subscribe for Weekly Retail Insights
+            </h2>
+            <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+                Get the latest updates on retail trends, AI innovations, and exclusive Digirox content delivered to your inbox.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto">
+                <input type="email" placeholder="Enter your email address" class="flex-grow px-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition duration-300 transform hover:scale-105">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-[1400px] mx-auto px-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-12">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-extrabold mb-6">Digirox</h3>
+                    <p class="text-gray-400">AI-powered retail solutions that drive measurable profit growth for modern retailers.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Solutions</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Price Optimization</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Assortment Analysis</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Competitive Analysis</a></li>
+                        <li><a href="index.html#capabilities" class="text-gray-400 hover:text-white">Inventory Analysis</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Cookie Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-10 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 Digirox, Inc. All rights reserved.</p>
+                <div class="flex space-x-8">
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white text-xl">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
